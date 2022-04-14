@@ -1,0 +1,28 @@
+figure {
+  border: thick darkgray solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  width: 500px;
+}
+
+img {
+  object-fit: contain;
+}
+
+figcaption {
+  background-color: black;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Give a container a padding so that its contents have some breathing space. 
+However, you want the header to span the entire container, ignoring the padding. 
+Negative margins are the way to go. */
+.top-container {
+  background-color: rgba(220, 220, 220, 0.844);
+  margin: 0 -1em;
+}

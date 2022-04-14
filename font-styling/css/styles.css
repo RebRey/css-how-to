@@ -1,0 +1,147 @@
+.class-1 {
+  background-color: black;
+  border: none;
+  color: black;
+  height: 5px;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-green {
+  color: green;
+}
+
+.serif {
+  font-family: serif;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+.font-stack {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.px30 {
+  font-size: 30px;
+}
+
+.px40 {
+  font-size: 40px;
+}
+
+.em1 {
+  font-size: 1em;
+}
+
+.em2 {
+  font-size: 2em;
+}
+
+.rem1 {
+  font-size: 1rem;
+}
+
+.rem2 {
+  font-size: 2rem;
+}
+
+.normal-style {
+  font-style: normal;
+}
+
+.italic-style {
+  font-style: italic;
+}
+
+.oblique-style {
+  font-style: oblique;
+}
+
+.normal-weight {
+  font-weight: normal;
+}
+
+.lighter-weight {
+  font-weight: lighter;
+}
+
+.bold-weight {
+  font-weight: bold;
+}
+
+.bolder-weight {
+  font-weight: bolder;
+}
+
+.one-hundred-weight {
+  font-weight: 100;
+}
+
+.two-hundred-weight {
+  font-weight: 200;
+}
+
+.three-hundred-weight {
+  font-weight: 300;
+}
+
+.four-hundred-weight {
+  font-weight: 400;
+}
+
+.five-hundred-weight {
+  font-weight: 500;
+}
+
+.six-hundred-weight {
+  font-weight: 600;
+}
+
+.seven-hundred-weight {
+  font-weight: 700;
+}
+
+.eight-hundred-weight {
+  font-weight: 800;
+}
+
+.nine-hundred-weight {
+  font-weight: 900;
+}
+
+.none-transformation {
+  text-transform: none;
+}
+
+.uppercase-transformation {
+  text-transform: uppercase
+}
+
+.lowercase-transformation {
+  text-transform: lowercase;
+}
+
+.capitalize-transformation {
+  text-transform: capitalize;
+}
+
+.full-width-transformation {
+  text-transform: full-width;
+}

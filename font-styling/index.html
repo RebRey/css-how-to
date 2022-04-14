@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Demonstrating Font Styling</h1>
+
+    <p>
+      The CSS properties used to style text generally fall into two categories:
+      font styles and text layout styles.
+    </p>
+
+    <hr class="class-1" />
+
+    <h2>Font Styles</h2>
+    <p>
+      Properties that affect a text's font, e.g., which font gets applied, its
+      size, and whether it's bold, italic, etc.
+    </p>
+    <br />
+    <hr />
+
+    <h3>Color</h3>
+    <p>
+      The color property sets the color of the foreground content of the
+      selected elements, which is usually the text.
+    </p>
+    <p class="color-red">This text is colored red.</p>
+    <p class="color-green">This text is colored green.</p>
+    <br />
+    <hr />
+
+    <h3>Font Families</h3>
+    <p>
+      The font-family property allows you to specify a font (or list of fonts)
+      for the browser to apply to the selected elements. The browser will only
+      apply a font if it is available on the machine the website is being
+      accessed on; if not, it will just use a browser default font.
+    </p>
+    <p class="serif">This is what the serif font looks like.</p>
+    <p class="sans-serif">This is what the sans-serif font looks like.</p>
+    <p class="monospace">This is what the monospace font looks like.</p>
+    <p class="cursive">This is what the cursive font looks like.</p>
+    <p class="fantasy">This is what the fantasy font looks like.</p>
+    <br />
+    <hr />
+
+    <h3>Font Stacks</h3>
+    <p>
+      Since you can't guarantee the availability of the fonts you want to use on
+      your webpages (even a web font could fail for some reason), you can supply
+      a font stack so that the browser has multiple fonts it can choose from.
+      This involves a font-family value consisting of multiple font names
+      separated by commas.
+    </p>
+    <p class="font-stack">
+      This text has the following font stack: font-family: 'Trebuchet MS',
+      'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    </p>
+    <br />
+    <hr />
+
+    <h3>Font Size</h3>
+    <p>
+      Font size is set with the font-size property. It can take values measured
+      in px (pixels), em, and rem.
+    </p>
+    <p class="px30">This text is 30px (pixels).</p>
+    <p class="px40">This text is 40px (pixels).</p>
+    <p class="em1">This text is 1 em.</p>
+    <p class="em2">This text is 2 em.</p>
+    <p class="rem1">This text is 1 rem.</p>
+    <p class="rem2">This text is 2 rem.</p>
+    <br />
+    <hr />
+
+    <h3>Font Style</h3>
+    <p>
+      Used to turn italic text on or off. Possible values are as follows (you'll
+      rarely use this, unless you want to turn some italic styling off for some
+      reason):
+    </p>
+    <p class="normal-style">
+      The normal property sets the text to the normal font (turns existing
+      italics off).
+    </p>
+    <p class="italic-style">
+      The italic property sets the text to use the italic version of the font,
+      if available; if not, it will simulate italics with oblique instead.
+    </p>
+    <p class="oblique-style">
+      The oblique property sets the text to use a simulated version of an italic
+      font, created by slanting the normal version.
+    </p>
+    <br />
+    <hr />
+
+    <h3>Font Weight</h3>
+    <p>
+      Sets how bold the text is. This has many values available in case you have
+      many font variants available (such as -light, -normal, -bold, -extrabold,
+      -black, etc.), but realistically you'll rarely use any of them except for
+      normal and bold:
+    </p>
+    <p class="normal-weight">
+      This has a normal weight. Same as the numerical value 400
+    </p>
+    <p class="lighter-weight">This has a lighter weight.</p>
+    <p class="bold-weight">
+      This has a bold weight. Same as the numerical value 700
+    </p>
+    <p class="bolder-weight">This has a bolder weight.</p>
+    <p class="one-hundred-weight">
+      This has a 100 value weight, also known as thin or hairline.
+    </p>
+    <p class="two-hundred-weight">
+      This has a 200 value weight, also known as extra light or ultra light.
+    </p>
+    <p class="three-hundred-weight">
+      This has a 300 value weight, also known as light.
+    </p>
+    <p class="four-hundred-weight">
+      This has a 400 value weight, also known as normal or regular.
+    </p>
+    <p class="five-hundred-weight">
+      This has a 500 value weight, also known as medium.
+    </p>
+    <p class="six-hundred-weight">
+      This has a 600 value weight, also known as semi bold or demi bold.
+    </p>
+    <p class="seven-hundred-weight">
+      This has a 700 value weight, also known as bold.
+    </p>
+    <p class="eight-hundred-weight">
+      This has a 800 value weight, also known as extra bold or ultra bold.
+    </p>
+    <p class="nine-hundred-weight">
+      This has a 900 value weight, also known as black or heavy.
+    </p>
+    <br />
+    <hr />
+
+    <h3>Text Transform</h3>
+    <p>Allows you to set your font to be transformed. Values include:</p>
+    <p class="none-transformation">
+      None transformation prevents any transformation.
+    </p>
+    <p class="uppercase-transformation">
+      Uppercase transforms all text to capitals.
+    </p>
+    <p class="lowercase-transformation">
+      Lowercase transforms all text to lower case.
+    </p>
+    <p class="capitalize-transformation">
+      Capitalize transforms all words to have the first letter capitalized.
+    </p>
+    <p class="full-width-transformation">
+      Full width Transforms all glyphs to be written inside a fixed-width
+      square, similar to a monospace font, allowing aligning of, e.g., Latin
+      characters along with Asian language glyphs (like Chinese, Japanese,
+      Korean). 一 二 三 大 鳥
+    </p>
+    <br />
+    <hr />
+
+    <h3>Text Decoration</h3>
+    <p>
+      Sets/unsets text decorations on fonts (you'll mainly use this to unset the
+      default underline on links when styling them). Available values are:
+    </p>
+    <p class="none-decoration">
+      The normal property sets the text to the normal font (turns existing
+      italics off).
+    </p>
+    <p class="underline-decoration">
+      The italic property sets the text to use the italic version of the font,
+      if available; if not, it will simulate italics with oblique instead.
+    </p>
+    <p class="overline-decoration">
+      The oblique property sets the text to use a simulated version of an italic
+      font, created by slanting the normal version.
+    </p>
+    <p class="line-through-decoration">
+      The oblique property sets the text to use a simulated version of an italic
+      font, created by slanting the normal version.
+    </p>
+    <br />
+    <hr />
+
+    <hr class="class-1" />
+    <h2>Text Layout Styles</h2>
+    <p>
+      Properties that affect the spacing and other layout features of the text,
+      allowing manipulation of, for example, the space between lines and
+      letters, and how the text is aligned within the content box.
+    </p>
+  </body>
+</html>
