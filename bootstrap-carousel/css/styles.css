@@ -1,0 +1,8 @@
+/* create a new class to the carousel-item div class to center the images */
+.chin-center{
+    text-align: center;
+}
+
+.chin-img {
+    height: 200px;
+}

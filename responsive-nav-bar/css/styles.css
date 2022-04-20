@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navigation */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  /* padding: 20px 40px; add to nav-bar*/
+}
+
+.flex-nav {
+  display: flex; /* affects it's direct children (nav-header, nav-links) */
+  flex-direction: column; /* default flex displays items in rows, we want columns */
+}
+
+.nav-bar {
+  background-color: #ff4c68;
+  padding: 20px 40px;
+  height: 300px;
+}
+
+.nav-brand {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between; /* default flex displays items in rows, we want the hamburger button on the right */
+}
+
+.nav-header span {
+  color: yellow;
+}
+
+.nav-toggle {
+  border: transparent;
+  background: transparent;
+  color: white;
+  font-size: 1.5rem;
+}
+
+nav li {
+  list-style: none;
+  margin: 10px 0px;
+  padding: 0 10px;
+}
+
+nav li a {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-decoration: none; /* removes default link underline */
+}
+
+nav li a:hover {
+  color: yellow;
+}
+
+/* javascript styling */
+.nav-links {
+  height: 0;
+  overflow: hidden; /* makes the nav link disappear */
+}
+
+.nav-open {
+  height: 100vh;
+}
+
+@media only screen and (min-width: 900px) {
+  .nav-toggle {
+    display: none; /* when the screen is 500px or bigger the hamburger button disappears */
+  }
+
+  .nav-header {
+    display: bock;
+  }
+
+  .flex-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+  }
+
+  .nav-links {
+    height: auto; /* links will be visible for screens 500px and up */
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block; /* applies margin and padding */
+  }
+}
